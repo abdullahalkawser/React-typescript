@@ -1,6 +1,7 @@
 
 import './App.css'
-import Post from './componants/Post'
+// import Post from './componants/Post'
+import StyleButton from './componants/StyleButton'
 // import ChildrenProps from './componants/childrenProps'
 // import DataFetch from './componants/DataFetch'
 // import User from './componants/user'
@@ -55,7 +56,8 @@ function App() {
 
  {/* <DataFetch stattus = "succses"/> */}
  {/* <ChildrenProps>click me</ChildrenProps> */}
-<Post/>
+{/* <Post/> */}
+<StyleButton stylebtn={{backgroundColor: 'red' }}/>
  </div>
 </div>
   )
