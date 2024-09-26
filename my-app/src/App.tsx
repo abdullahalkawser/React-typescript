@@ -1,6 +1,8 @@
 
 import './App.css'
-import DataFetch from './componants/DataFetch'
+import Post from './componants/Post'
+// import ChildrenProps from './componants/childrenProps'
+// import DataFetch from './componants/DataFetch'
 // import User from './componants/user'
 // import Users from './componants/users';
 
@@ -51,8 +53,9 @@ function App() {
  {/* <User user={user} /> */}
  {/* <Users users= {users}/> */}
 
- <DataFetch stattus = "succses"/>
-
+ {/* <DataFetch stattus = "succses"/> */}
+ {/* <ChildrenProps>click me</ChildrenProps> */}
+<Post/>
  </div>
 </div>
   )
