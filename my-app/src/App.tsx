@@ -1,5 +1,6 @@
 
 import './App.css'
+import Form from './componants/From'
 import NewUser from './componants/NewUser'
 // import CounterHook from './componants/CounterHook'
 // // import Post from './componants/Post'
@@ -62,6 +63,7 @@ function App() {
 {/* <StyleButton stylebtn={{backgroundColor: 'red' }}/> */}
 {/* <CounterHook/> */}
 {/* <NewUser/> */}
+<Form/>
  </div>
 </div>
   )
