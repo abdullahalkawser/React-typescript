@@ -1,5 +1,6 @@
 
 import './App.css'
+import CounterHook from './componants/CounterHook'
 // import Post from './componants/Post'
 import StyleButton from './componants/StyleButton'
 // import ChildrenProps from './componants/childrenProps'
@@ -57,7 +58,8 @@ function App() {
  {/* <DataFetch stattus = "succses"/> */}
  {/* <ChildrenProps>click me</ChildrenProps> */}
 {/* <Post/> */}
-<StyleButton stylebtn={{backgroundColor: 'red' }}/>
+{/* <StyleButton stylebtn={{backgroundColor: 'red' }}/> */}
+<CounterHook/>
  </div>
 </div>
   )
